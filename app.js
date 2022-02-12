@@ -13,7 +13,7 @@ function updateCaseNumber(isIncreasing){
     const caseTotal = document.getElementById('case-total');
     caseTotal.innerText = caseNumber * 59;
 }
-// button handler
+// button handler for case quantity increse and decrease with price
 document.getElementById('case-plus').addEventListener('click', function(){
     updateCaseNumber(true);
 });
